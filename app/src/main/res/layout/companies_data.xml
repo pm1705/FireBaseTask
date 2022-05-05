@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FB1BC"
+    tools:context=".data_workers">
+
+    <Space
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <ListView
+            android:id="@+id/data_display"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="56"
+            android:background="#B7C4CD">
+
+        </ListView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:background="#E2C044"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="Sort By:"
+                android:textColor="#5E4F43"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/sort_button"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:onClick="sort_choose"
+                android:text="Key Id"
+                android:textColor="#5E4F43"
+                android:textSize="16sp"
+                app:backgroundTint="#D3D0CB" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <ImageButton
+                android:id="@+id/sort_order_button"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:onClick="change_order"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/sort_down_inc" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:background="#E2C044"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="Show:"
+                android:textColor="#5E4F43"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/show_button"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:onClick="show_choose"
+                android:text="all fields"
+                android:textColor="#535353"
+                android:textSize="16sp"
+                app:backgroundTint="#D3D0CB" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="7"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="45"
+                android:background="#D3D0CB"
+                android:onClick="back_home"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chevron" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="45"
+                android:background="#D3D0CB"
+                android:onClick="add_input"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/plus" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+</LinearLayout>

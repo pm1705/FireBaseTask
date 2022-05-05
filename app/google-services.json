@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "430569498125",
+    "firebase_url": "https://gevyam-d8c83-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "gevyam-d8c83",
+    "storage_bucket": "gevyam-d8c83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430569498125:android:b93c5bf99d74e5ff10d744",
+        "android_client_info": {
+          "package_name": "com.example.firebasetask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430569498125-riu3isre9qcg3iucqrhcis3n0hge5vf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFZh4p24ctdvw5fSEJAD78z0aIzYy5l8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430569498125-riu3isre9qcg3iucqrhcis3n0hge5vf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430569498125:android:215e2d76fdb3601c10d744",
+        "android_client_info": {
+          "package_name": "com.example.popis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430569498125-riu3isre9qcg3iucqrhcis3n0hge5vf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFZh4p24ctdvw5fSEJAD78z0aIzYy5l8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430569498125-riu3isre9qcg3iucqrhcis3n0hge5vf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
